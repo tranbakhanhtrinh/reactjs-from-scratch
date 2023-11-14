@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   mode: 'production',
   output: {
-    publicPath: '/',
+    publicPath: './',
     filename: 'static/js/[name].[contenthash:8].js',
     chunkFilename: 'static/js/[name].[contenthash:8].chunk.js',
     assetModuleFilename: 'static/media/[name].[hash][ext]',
