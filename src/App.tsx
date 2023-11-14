@@ -3,7 +3,6 @@ import signature from './signature.png'
 import logo from './vercel.svg'
 import ClickCounter from './ClickCounter'
 const App = () => {
-  const name = 'trinh'
   return (
     <>
       <h1>
